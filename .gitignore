@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Datasets and raw data
+Dysgraphia_detection/
+archive/
+drotar_raw/
+*.zip
+
+# Generated/preprocessed image datasets
+drotar_static_images/
+drotar_model_data/
+preprocessed_Dysgraphia/
+model_data/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
