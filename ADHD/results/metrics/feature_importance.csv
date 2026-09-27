@@ -1,0 +1,14 @@
+Feature,Importance
+sacc_amplitude_mean,0.10473810040667686
+sacc_duration_mean,0.09828539781993471
+sacc_amplitude_std,0.09638951003227565
+saccade_rate_per_sec,0.08856091053687001
+fixation_rate_per_sec,0.08463789073220503
+fix_duration_mean,0.08202674305889619
+fix_duration_std,0.0780908049906934
+fix_dispersion_mean,0.07169518021660545
+sacc_peak_vel_mean,0.07135240651626973
+tracker_loss_prop,0.06698101868133335
+n_fixations,0.06315322480362108
+n_saccades,0.0567423295717946
+fix_duration_median,0.03734648263282388
