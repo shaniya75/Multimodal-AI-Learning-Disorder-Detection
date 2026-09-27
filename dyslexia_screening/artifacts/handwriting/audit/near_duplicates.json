@@ -1,0 +1,26 @@
+[
+  {
+    "image_1": "D:\\Main_Project\\Multimodal_NDD_Prediction\\dyslexia_screening\\data\\handwriting\\dyslexic\\28.jpg",
+    "class_1": "dyslexic",
+    "image_2": "D:\\Main_Project\\Multimodal_NDD_Prediction\\dyslexia_screening\\data\\handwriting\\dyslexic\\30.jpg",
+    "class_2": "dyslexic",
+    "phash_distance": 0,
+    "pixel_difference": 0.0035139494575560093
+  },
+  {
+    "image_1": "D:\\Main_Project\\Multimodal_NDD_Prediction\\dyslexia_screening\\data\\handwriting\\dyslexic\\33.jpg",
+    "class_1": "dyslexic",
+    "image_2": "D:\\Main_Project\\Multimodal_NDD_Prediction\\dyslexia_screening\\data\\handwriting\\dyslexic\\37.jpg",
+    "class_2": "dyslexic",
+    "phash_distance": 4,
+    "pixel_difference": 0.010324753820896149
+  },
+  {
+    "image_1": "D:\\Main_Project\\Multimodal_NDD_Prediction\\dyslexia_screening\\data\\handwriting\\dyslexic\\44.jpg",
+    "class_1": "dyslexic",
+    "image_2": "D:\\Main_Project\\Multimodal_NDD_Prediction\\dyslexia_screening\\data\\handwriting\\dyslexic\\5.jpg",
+    "class_2": "dyslexic",
+    "phash_distance": 4,
+    "pixel_difference": 0.03967883437871933
+  }
+]

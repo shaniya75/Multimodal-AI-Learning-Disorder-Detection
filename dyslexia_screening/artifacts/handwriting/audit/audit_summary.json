@@ -1,0 +1,18 @@
+{
+  "dataset_root": "D:\\Main_Project\\Multimodal_NDD_Prediction\\dyslexia_screening\\data\\handwriting",
+  "total_images": 192,
+  "failed_images": 0,
+  "exact_duplicate_groups": 0,
+  "near_duplicate_pairs": 3,
+  "cross_class_similar_pairs": 0,
+  "classes": {
+    "dyslexic": {
+      "count": 90,
+      "percentage": 46.88
+    },
+    "non_dyslexic": {
+      "count": 102,
+      "percentage": 53.12
+    }
+  }
+}

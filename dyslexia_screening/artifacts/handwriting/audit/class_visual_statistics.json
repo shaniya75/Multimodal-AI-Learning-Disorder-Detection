@@ -1,0 +1,14 @@
+{
+  "dyslexic": {
+    "mean_pixel_mean": 0.749004770649804,
+    "mean_pixel_std": 0.09889681633147929,
+    "mean_black_ratio": 0.003386773003472222,
+    "mean_white_ratio": 0.4079779730902778
+  },
+  "non_dyslexic": {
+    "mean_pixel_mean": 0.7868928745681164,
+    "mean_pixel_std": 0.0700669607111052,
+    "mean_black_ratio": 0.0024928672640931373,
+    "mean_white_ratio": 0.458526611328125
+  }
+}

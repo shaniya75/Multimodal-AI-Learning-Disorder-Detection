@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+venv/
+artifacts/speech/uploads/
+artifacts/handwriting/uploads/
+artifacts/speech/embeddings/*.npy
+data/mps/*
+data/handwriting/*
+!data/mps/.gitkeep
+!data/handwriting/.gitkeep

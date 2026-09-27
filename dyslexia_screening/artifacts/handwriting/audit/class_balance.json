@@ -1,0 +1,10 @@
+{
+  "dyslexic": {
+    "count": 90,
+    "percentage": 46.88
+  },
+  "non_dyslexic": {
+    "count": 102,
+    "percentage": 53.12
+  }
+}

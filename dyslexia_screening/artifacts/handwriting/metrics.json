@@ -1,0 +1,40 @@
+{
+  "accuracy": 0.9032258064516129,
+  "precision": 0.9054621848739496,
+  "recall": 0.9020833333333333,
+  "f1_score": 0.9028213166144201,
+  "roc_auc": 0.9875,
+  "sensitivity": 0.9375,
+  "specificity": 0.8666666666666667,
+  "confusion_matrix": [
+    [
+      13,
+      2
+    ],
+    [
+      1,
+      15
+    ]
+  ],
+  "num_train_samples": 133,
+  "num_val_samples": 28,
+  "num_test_samples": 31,
+  "num_classes": 2,
+  "best_val_accuracy": 0.9642857142857143,
+  "training_strategy": "partial_fine_tuning",
+  "frozen_layers": [
+    "conv1",
+    "bn1",
+    "layer1",
+    "layer2",
+    "layer3"
+  ],
+  "trainable_layers": [
+    "layer4",
+    "fc"
+  ],
+  "layer4_learning_rate": 1e-05,
+  "fc_learning_rate": 0.0001,
+  "weight_decay": 0.0001,
+  "early_stopping_patience": 5
+}

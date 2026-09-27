@@ -1,0 +1,54 @@
+app:
+  title: "AI-Powered Early Dyslexia Screening System"
+  mode: "development"  # development | demo
+  disclaimer: >
+    This is a research/development prototype. The current speech module uses
+    the MPS oral-reading dataset, which does not provide clinical dyslexia
+    labels. Current outputs should not be interpreted as a dyslexia diagnosis.
+
+speech:
+  dataset_path: "data/mps/mps_dataset"
+  passages_path: "data/passages"
+  sample_rate: 16000
+  min_duration_seconds: 1.0
+  max_duration_seconds: 120.0
+  model_name: "facebook/wav2vec2-base"
+  classifier: "xgboost"        # xgboost | svm
+  target_column: null #target_column: "reading_outcome"   # must exist in the MPS-derived feature table 
+  test_size: 0.2
+  val_size: 0.1
+  random_state: 42
+  # Maps this pipeline's internal field names (left) to the actual field
+  # names used in your MPS data.json records (right). The defaults below
+  # are placeholders — run `python training/extract_reading_features.py`
+  # once, check the logged "Example record keys" line for your real
+  # data.json, and update the right-hand values to match.
+  annotation_fields:
+    total_reference_words: "total_reference_words"
+    correct_words: "correct_words"
+    substitutions: "substitutions"
+    deletions: "deletions"
+    insertions: "insertions"
+    reading_duration_seconds: "reading_duration_seconds"
+    hesitation_count: "hesitation_count"
+
+handwriting:
+  dataset_path: "data/handwriting"
+  image_size: 224
+  model_name: "resnet18"
+  batch_size: 16
+  num_epochs: 30
+  learning_rate: 0.001
+  train_split: 0.70
+  val_split: 0.15
+  test_split: 0.15
+  random_state: 42
+  content_type_filter: null
+
+
+artifacts:
+  speech: "artifacts/speech"
+  handwriting: "artifacts/handwriting"
+
+logging:
+  level: "INFO"
